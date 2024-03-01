@@ -5,6 +5,8 @@ layout: home
 classes: wide
 ---
 
+# About
+
 N2T.net (Name-to-Thing) is a "resolver," a kind of server that specializes in indirection. Resolvers serve content indirectly by forwarding most incoming requests to other servers rather than serving content directly (this page being an exception). Resolvers are good at redirecting requests to content servers, similar to URL shorteners like bit.ly and t.co.
 
 ## Origins of N2T
