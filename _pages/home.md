@@ -13,7 +13,7 @@ header:
 
 ---
 
-# This is coming from the markdown file!
+<h2>This is coming from the markdown file!</h2>
 
 {% include feature_row id="intro" type="center" %}
 
