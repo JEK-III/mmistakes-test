@@ -66,10 +66,8 @@ author:
 footer:
   links:
     - label: "Terms of Use"
-      icon: false
       url: https://www.cdlib.org/about/terms.html
     - label: "Privacy Policy"
-      icon:
       url: https://www.cdlib.org/about/privacy.html
     - label: "Accessibility Policy"
       url: https://www.cdlib.org/about/accessibility.html
