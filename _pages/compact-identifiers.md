@@ -1,12 +1,12 @@
 ---
 permalink: /compact-ids/
 title: "Compact Identifiers"
-layout: default
+layout: interior
 classes: wide
 ---
 
 
-# Compact Identifiers (CURIEs)
+## Compact Identifiers (CURIEs)
 
 ```
 Examples                         PDB:2gc4
