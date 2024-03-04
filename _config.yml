@@ -64,8 +64,16 @@ author:
   links:
 
 footer:
+  links:
+    - label: "Terms of Use"
+      url: https://www.cdlib.org/about/terms.html
+    - label: "Privacy Policy"
+      url: https://www.cdlib.org/about/privacy.html
+    - label: "Accessibility Policy"
+      url: https://www.cdlib.org/about/accessibility.html
 
 atom_feed:
+  path: 
   hide: true
 
 defaults:
