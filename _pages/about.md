@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-layout: home
+layout: interior
 classes: wide
 ---
 
