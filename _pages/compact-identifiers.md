@@ -1,7 +1,7 @@
 ---
 permalink: /compact-ids/
 title: "Compact Identifiers"
-layout: home
+layout: default
 classes: wide
 ---
 
