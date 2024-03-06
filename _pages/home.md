@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "N2T"
-layout: splash
+layout: home
 header:
     image: "/assets/images/shore.jpg"
 ---
