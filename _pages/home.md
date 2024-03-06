@@ -3,12 +3,7 @@ permalink: /
 title: "N2T"
 layout: splash
 header:
-  overlay_color: "#000"
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-
+    image: "/assets/images/shore.jpg"
 ---
 
 <h2>This is an HTML heading coming from the markdown file!</h2>
