@@ -11,8 +11,9 @@ header:
 
 ---
 
-<h2>This is coming from the markdown file!</h2>
+<h2>This is an HTML heading coming from the markdown file!</h2>
 
+## This is a markdown heading from the markdown file
 
 {% include feature_row id="intro" type="center" %}
 
