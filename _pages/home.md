@@ -1,7 +1,7 @@
 ---
-permalink: /index
+permalink: /
 title: "Name to Thing"
-layout: interior
+layout: home
 classes: wide
 ---
 
