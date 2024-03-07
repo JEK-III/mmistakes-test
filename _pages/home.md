@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /test-home/
 title: "Name to Thing"
 layout: home
 classes: wide
