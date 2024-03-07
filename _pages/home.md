@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Name to Thing"
-layout: home
+layout: interior
 classes: wide
 ---
 
