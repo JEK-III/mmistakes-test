@@ -5,21 +5,23 @@ layout: splash
 classes: wide
 excerpt: N2T keeps identifiers persistent, forwarding them to the best known web addresses.
 header:
-    overlay_color: "#00778a"
+    overlay_color: "linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)"
 feature_row:
   - image_path: /assets/images/shore.jpg
-    title: "Placeholder 1"
+    title: "About N2T"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/shore.jpg
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Compact Identifiers"
+    excerpt: "N2T resolves 900+ compact identifiers"
+  - image_path: /assets/images/shore.jpg
+    title: "API Documentation"
+    excerpt: "The API is used to create and maintain identifiers and metadata. "
     url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/shore.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    btn_label: "API documentation"
+    
 ---
+
+N2T partners with Identifiers.org to resolve any kind of name – ARK, DOI, URN, Handle, PMID, PDB, Taxon, arxiv, ISSN, and more.
 
 {% include feature_row %}
 
@@ -27,6 +29,4 @@ feature_row:
 
 ## This is a markdown heading from the markdown file
 
-N2T keeps identifiers persistent, forwarding them to the best known web addresses
-Partners with Identifiers.org to resolve any kind of name – ARK, DOI, URN, Handle, PMID, PDB, Taxon, arxiv, ISSN, 
-N2T resolves 900+ compact identifiers
+Partners with Identifiers.org to resolve any kind of name – ARK, DOI, URN, Handle, PMID, PDB, Taxon, arxiv, ISSN, and more. 
