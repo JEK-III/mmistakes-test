@@ -3,6 +3,8 @@ permalink: /home-design/
 title: "Name to Thing"
 layout: splash
 classes: wide
+header:
+    overlay_image: /assets/images/shore.jpg
 ---
 
 <h2>This is an HTML heading coming from the markdown file!</h2>
