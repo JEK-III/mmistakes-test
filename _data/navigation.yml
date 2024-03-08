@@ -3,3 +3,5 @@ main:
     url: /about/ 
   - title: "Compact Identifiers"
     url: /compact-ids/
+  - title: "Home Design"
+    url: /home-design/

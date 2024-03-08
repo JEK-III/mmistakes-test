@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /home-design/
 title: "Name to Thing"
 layout: interior
 classes: wide
