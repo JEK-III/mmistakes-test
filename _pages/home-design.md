@@ -1,7 +1,7 @@
 ---
 permalink: /home-design/
 title: "Name to Thing"
-layout: interior
+layout: splash
 classes: wide
 ---
 
