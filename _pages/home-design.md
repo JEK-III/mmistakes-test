@@ -4,7 +4,7 @@ title: "Name to Thing"
 layout: splash
 classes: wide
 header:
-    overlay_color: $primary-color
+    overlay_color: "#00778a"
 ---
 
 <h2>This is an HTML heading coming from the markdown file!</h2>
