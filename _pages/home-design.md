@@ -5,7 +5,8 @@ layout: splash
 classes: wide
 excerpt: N2T keeps identifiers persistent, forwarding them to the best known web addresses.
 header:
-    overlay_color: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)
+    overlay_color: "white"
+    overlay_filter: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)
 feature_row:
   - image_path: "/assets/images/shore.jpg"
     title: "About N2T"
@@ -28,8 +29,3 @@ N2T.net is a kind of URL shortener that takes you to the digital objects referen
 
 {% include feature_row %}
 
-<h2>This is an HTML heading coming from the markdown file!</h2>
-
-## This is a markdown heading from the markdown file
-
-Partners with Identifiers.org to resolve any kind of name – ARK, DOI, URN, Handle, PMID, PDB, Taxon, arxiv, ISSN, and more. 
