@@ -21,7 +21,10 @@ feature_row:
     
 ---
 
-N2T partners with Identifiers.org to resolve any kind of name – ARK, DOI, URN, Handle, PMID, PDB, Taxon, arxiv, ISSN, and more.
+## How it works
+
+N2T.net is a kind of URL shortener that takes you to the digital objects referenced by over 900 types of name– including DOIs, ARKs, ORCIDs, and arXiv IDs.
+
 
 {% include feature_row %}
 
