@@ -26,10 +26,13 @@ feature_row:
     
 ---
 
-## How it works
+N2T is an identifier scheme resolver that given a provided identifier, matches it to an identifier scheme definition. Depending on the form of the request, a successful match will either redirect to the registered target or present information about the matched definition.
 
-N2T.net is a kind of URL shortener that takes you to the digital objects referenced by over 900 types of name– including DOIs, ARKs, ORCIDs, and arXiv IDs.
+Identifiers take the form:
 
-
+'''
+scheme:prefix/value
+'''
+ 
 {% include feature_row %}
 
