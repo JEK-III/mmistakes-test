@@ -7,7 +7,7 @@ excerpt: N2T keeps identifiers persistent, forwarding them to the best known web
 header:
     overlay_color: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)
 feature_row:
-  - image_path: /assets/images/shore.jpg
+  - image_path: "/assets/images/shore.jpg"
     title: "About N2T"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/shore.jpg
