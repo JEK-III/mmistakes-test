@@ -30,9 +30,9 @@ N2T is an identifier scheme resolver that given a provided identifier, matches i
 
 Identifiers take the form:
 
-'''
+```
 scheme:prefix/value
-'''
- 
+```
+
 {% include feature_row %}
 
