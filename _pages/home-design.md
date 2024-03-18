@@ -9,15 +9,19 @@ header:
     # overlay_filter: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)
 feature_row:
   - image_path: "/assets/images/shore.jpg"
-    title: "About N2T"
+    title: "API"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "https://n2t-stg.cdlib.org/api#/"
+    btn_label: "API Description"
   - image_path: /assets/images/shore.jpg
-    title: "Compact Identifiers"
+    title: "Identifier Types"
     excerpt: "N2T resolves 900+ compact identifiers"
+    url: "https://n2t-stg.cdlib.org/_schemes.html"
+    btn_label: "All Schemes"
   - image_path: /assets/images/shore.jpg
-    title: "API Documentation"
+    title: "About N2T"
     excerpt: "The API is used to create and maintain identifiers and metadata. "
-    url: "#test-link"
+    url: "/about/"
     btn_label: "API documentation."
     
 ---
