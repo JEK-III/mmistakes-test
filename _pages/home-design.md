@@ -9,6 +9,7 @@ header:
     # overlay_filter: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)
 feature_row:
   - image_path: /assets/images/cdl-swirl.svg
+    background: "linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)"
     title: "API"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "https://n2t-stg.cdlib.org/api#/"
