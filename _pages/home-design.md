@@ -5,7 +5,7 @@ layout: splash
 classes: wide
 excerpt: N2T keeps identifiers persistent, forwarding them to the best known web addresses.
 header:
-    # overlay_color: "#0D846E"
+    overlay_color: "#0D846E"
     # overlay_filter: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)
 feature_row:
   - image_path: /assets/images/cdl-swirl.svg

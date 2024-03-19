@@ -15,14 +15,8 @@ $primary-color: #0d846e;
 $background-color: #fcfeff;
 $text-color: #000d11;
 $gallery-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(0,119,139,1) 94%);
-$hero-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(126,136,71,1) 100%);
 
-/* Homepage Customization  */
-
-.page__hero--overlay {
-  background: $hero-gradient;
-}
-
+/* Homepage Gallery customization  */
 .archive__item-teaser {
   background: $gallery-gradient;
   padding: 2em 5em;
