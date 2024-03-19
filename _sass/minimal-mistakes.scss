@@ -15,9 +15,9 @@ $primary-color: #0d846e;
 $background-color: #fcfeff;
 $text-color: #000d11;
 
-/* Gallery Images  */
+/* Homepage Gallery customization  */
 .archive__item-teaser {
-  background-color: $primary-color;
+  background: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%);
   padding: 2em 5em;
 
   img {
@@ -25,6 +25,9 @@ $text-color: #000d11;
   }
 }
 
+.btn {
+  padding: 0.5em 1em 0.5em 0;
+}
 
 /* end N2T Customization ------------------- */
 
