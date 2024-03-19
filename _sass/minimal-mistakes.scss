@@ -14,10 +14,12 @@ $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Sego
 $primary-color: #0d846e;
 $background-color: #fcfeff;
 $text-color: #000d11;
+$gallery-gradient: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(13,132,110,1) 32%, rgba(13,132,110,1) 46%, rgba(0,119,139,1) 100%);
+
 
 /* Homepage Gallery customization  */
 .archive__item-teaser {
-  background: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%);
+  background: $gallery-gradient;
   padding: 2em 5em;
 
   img {
