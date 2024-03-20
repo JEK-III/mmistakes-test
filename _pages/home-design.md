@@ -8,7 +8,7 @@ header:
     overlay_color: "#0D846E"
     # overlay_filter: linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)
 feature_row:
-  - image_path: /assets/images/cdl-swirl.svg
+  - image_path: /assets/images/900-plus--white.svg
     title: "Identifier Types"
     excerpt: "N2T resolves 900+ compact identifiers"
     url: "https://n2t-stg.cdlib.org/_schemes.html"
