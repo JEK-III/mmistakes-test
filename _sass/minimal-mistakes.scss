@@ -8,17 +8,17 @@
 
 /* Fonts */
 $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
 /* Colors: Overrides */
 $primary-color: #0d846e;
 $background-color: #fcfeff;
-$footer-background-color: #ece5d6;
+$footer-background-color: #BEB6AF;
 $text-color: #000d11;
 
 /* Colors: New */
 $gallery-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(0,119,139,1) 94%);
-/* $action-color: #EE8B22; */
+$action-color: #EE8B22;
 
 /* Homepage Gallery customization  */
 .archive__item-teaser {
