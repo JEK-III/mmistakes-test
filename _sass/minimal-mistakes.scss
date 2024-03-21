@@ -10,11 +10,15 @@
 $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 
-/* Colors */
+/* Colors: Overrides */
 $primary-color: #0d846e;
 $background-color: #fcfeff;
+$footer-background-color: #ece5d6;
 $text-color: #000d11;
+
+/* Colors: New */
 $gallery-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(0,119,139,1) 94%);
+/* $action-color: #EE8B22; */
 
 /* Homepage Gallery customization  */
 .archive__item-teaser {
@@ -27,6 +31,7 @@ $gallery-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(0,119,139
 }
 
 a.btn {
+  color: $action-color;
   padding: 0.5em 1em 0.5em 0;
 }
 
