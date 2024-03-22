@@ -33,11 +33,11 @@ When you append an identifier *name* in the form `scheme:value` to `https://n2t.
 Here are some examples:
 
 ```
-<https://n2t.net/PDB:2gc4>
-<https://n2t.net/Taxon:9606>
-<https://n2t.net/DOI:10.5281/ZENODO.1289856>
-<https://n2t.net/ark:/47881/m6g15z54>
-<https://n2t.net/IGSN:SSH000SUA>
+https://n2t.net/PDB:2gc4
+https://n2t.net/Taxon:9606
+https://n2t.net/DOI:10.5281/ZENODO.1289856
+https://n2t.net/ark:/47881/m6g15z54
+https://n2t.net/IGSN:SSH000SUA
 ```
 
 {% include feature_row %}
