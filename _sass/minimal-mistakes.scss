@@ -13,7 +13,7 @@ $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Sego
 /* Colors: Overrides */
 $primary-color: #0d846e;
 $info-color: #D5207D;
-$background-color: #fff7eb;
+$background-color: #fffdfb;
 $footer-background-color: #DBD5CD;
 $text-color: #000d11;
 
@@ -29,6 +29,10 @@ $gallery-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(0,119,139
   img {
     width: 100%;
   }
+}
+
+.site-logo img {
+  max-height: 2.75rem;
 }
 
 a.btn {
