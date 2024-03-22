@@ -31,9 +31,7 @@ $gallery-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(0,119,139
   }
 }
 
-.site-logo img {
-  max-height: 2.75rem;
-}
+
 
 a.btn {
   /* color: $action-color; */
@@ -76,3 +74,9 @@ a.btn {
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+
+/* Additional custom N2T CSS */
+.site-logo img {
+  max-height: 2.75rem;
+}
