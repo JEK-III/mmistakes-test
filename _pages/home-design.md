@@ -13,7 +13,7 @@ feature_row:
     excerpt: "N2T resolves 900+ compact identifiers"
     url: "https://n2t-stg.cdlib.org/_schemes.html"
     btn_label: "All Schemes"
-  - image_path: /assets/images/terminal--white.svg
+  - image_path: /assets/images/gear-code--white.svg
     title: "API"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "https://n2t-stg.cdlib.org/api#/"
