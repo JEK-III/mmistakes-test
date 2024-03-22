@@ -8,14 +8,14 @@ header:
     overlay_color: "#0D846E"
     # overlay_image: "linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)"
 feature_row:
-  - image_path: /assets/images/900-plus--white.svg
-    title: "Identifier Types"
-    excerpt: "N2T resolves 900+ compact identifiers"
+  - image_path: /assets/images/schemes-icon--white.svg
+    title: "Identifier Schemes"
+    excerpt: "N2T resolves 900+ kinds of identifier, including DOIs, ARKs, and ORCIDs."
     url: "https://n2t-stg.cdlib.org/_schemes.html"
-    btn_label: "All Schemes"
+    btn_label: "See all identifier schemes"
   - image_path: /assets/images/gear-code--white.svg
     title: "API"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "The N2T API is used to create and maintain identifiers and metadata."
     url: "https://n2t-stg.cdlib.org/api#/"
     btn_label: "API Description"
   - image_path: /assets/images/cdl-swirl.svg
@@ -26,12 +26,18 @@ feature_row:
     
 ---
 
-N2T is an identifier scheme resolver that given a provided identifier, matches it to an identifier scheme definition. Depending on the form of the request, a successful match will either redirect to the registered target or present information about the matched definition.
+N2T.net is a kind of URL shortener for persistent identifiers, like DOIs and ORCIDs. 
 
-Identifiers take the form:
+When you append an identifier *name* in the form `scheme:value` to `https://n2t.net/`, N2T takes you to the digital *thing*.
+
+Here are some examples:
 
 ```
-scheme:prefix/value
+[https://n2t.net/PDB:2gc4](https://n2t.net/PDB:2gc4)
+[https://n2t.net/Taxon:9606](https://n2t.net/Taxon:9606)
+[https://n2t.net/DOI:10.5281/ZENODO.1289856](https://n2t.net/DOI:10.5281/ZENODO.1289856)
+[https://n2t.net/ark:/47881/m6g15z54](https://n2t.net/ark:/47881/m6g15z54)
+[https://n2t.net/IGSN:SSH000SUA](https://n2t.net/IGSN:SSH000SUA)
 ```
 
 {% include feature_row %}
