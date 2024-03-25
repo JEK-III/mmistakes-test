@@ -8,7 +8,7 @@ header:
     overlay_color: "#0D846E"
     # overlay_image: "linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)"
 feature_row:
-  - image_path:/ assets/images/N2T-icons_list--white.svg
+  - image_path: /assets/images/N2T-icons_list--white.svg
     title: "Identifier Schemes"
     excerpt: "N2T resolves 900+ kinds of identifier, including DOIs, ARKs, and ORCIDs."
     url: "https://n2t-stg.cdlib.org/_schemes.html"
