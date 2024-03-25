@@ -8,17 +8,17 @@ header:
     overlay_color: "#0D846E"
     # overlay_image: "linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)"
 feature_row:
-  - image_path: /assets/images/schemes-icon--white.svg
+  - image_path:/ assets/images/N2T-icons_list--white.svg
     title: "Identifier Schemes"
     excerpt: "N2T resolves 900+ kinds of identifier, including DOIs, ARKs, and ORCIDs."
     url: "https://n2t-stg.cdlib.org/_schemes.html"
     btn_label: "See all identifier schemes"
-  - image_path: /assets/images/gear-code--white.svg
+  - image_path: /assets/images/N2T-icons_gear--white.svg
     title: "API"
     excerpt: "The N2T API is used to create and maintain identifiers and metadata."
     url: "https://n2t-stg.cdlib.org/api#/"
     btn_label: "API Description"
-  - image_path: /assets/images/cdl-swirl.svg
+  - image_path: /assets/images/N2T-icons_uc3--white.svg
     title: "About N2T"
     excerpt: "The API is used to create and maintain identifiers and metadata. "
     url: "/about/"
