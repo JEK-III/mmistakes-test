@@ -16,7 +16,7 @@ $n2t-white: #fcfffe;
 $n2t-black: #000d11;
 /* $action-color: #EE8B22; */
 
-  /* Color Variables: Overrides */
+/* Color Variables: Overrides */
 $primary-color: #0d846e;
 $info-color: #ED8B22;
 $text-color: $n2t-black;
@@ -26,6 +26,7 @@ $footer-background-color: #DBD5CD;
 
 
 /* Homepage customization  */
+
 .archive__item-teaser {
   background: $gallery-gradient;
   padding: 2em 5em;
@@ -35,18 +36,11 @@ $footer-background-color: #DBD5CD;
   }
 }
 
-.page_title, .page_lead {
-  opacity: 95%;
-}
-
-
-
-
-
 a.btn {
   /* color: $action-color; */
   padding: 0.5em 1em 0.5em 0;
 }
+
 
 /* end N2T Customization ------------------- */
 
@@ -89,4 +83,8 @@ a.btn {
 /* Additional custom N2T CSS */
 .site-logo img {
   max-height: 2.75rem;
+}
+
+.page_title, .page_lead {
+  opacity: 0.95;
 }
