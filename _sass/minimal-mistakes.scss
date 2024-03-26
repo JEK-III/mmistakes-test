@@ -11,7 +11,7 @@ $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Sego
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
 /* Color Variables: New */
-$n2t-gallery-gradient: linear-gradient(55deg, rgba(13,132,110,1) 25%, rgba(0,119,139,1) 94%);
+$n2t-gallery-gradient: linear-gradient(320deg, rgba(13,132,110,1) 25%, rgba(0,119,139,1) 94%);
 $n2t-white: #fcfffe;
 $n2t-black: #000d11;
 /* $action-color: #EE8B22; */
@@ -36,6 +36,7 @@ $footer-background-color: #DBD5CD;
 
   img {
     width: 100%;
+    opacity: 0.9;
   }
 }
 
