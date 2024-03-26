@@ -26,9 +26,12 @@ $footer-background-color: #DBD5CD;
 
 
 /* Homepage customization  */
+.page_title, .page_lead {
+  opacity: 0.95;
+}
 
 .archive__item-teaser {
-  background: $gallery-gradient;
+  background: $n2t-gallery-gradient;
   padding: 2em 5em;
 
   img {
