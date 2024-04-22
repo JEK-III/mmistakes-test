@@ -18,7 +18,7 @@ $n2t-black: #000d11;
 
 /* Color Variables: Overrides */
 $primary-color: #0d846e;
-$info-color: #ED8B22;
+$info-color: #CC4B00;
 $text-color: $n2t-black;
 $background-color: $n2t-white;
 $footer-background-color: #DBD5CD;
@@ -41,13 +41,10 @@ $footer-background-color: #DBD5CD;
 }
 
 a.btn {
-  /* color: $action-color; */
+  color: $info-color;
   padding: 0.5em 1em 0.5em 0;
 }
 
-.page__footer {
-  font-size: 0.8em;
-}
 
 #footer {
   display: flex;
@@ -97,3 +94,14 @@ a.btn {
 .site-logo img {
   max-height: 2.75rem;
 }
+
+.page__footer {
+  font-size: $type-size-6;
+}
+
+.page__footer-follow a {
+  padding-right: 1em;
+  font-weight: 600;
+}
+
+
