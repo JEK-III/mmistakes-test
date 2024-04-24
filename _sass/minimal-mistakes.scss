@@ -49,10 +49,8 @@ a.btn {
 
 
 a.btn::after {
-  content: ">";
-  background-color: #ffba10;
-  border-color: black;
-  border-style: dotted;
+  content: url("/assets/images/angle-right-solid--orange.svg");
+  padding-left: 0.5em;
 }
 
 #footer {
