@@ -22,7 +22,9 @@ $info-color: #CC4B00;
 $text-color: $n2t-black;
 $background-color: $n2t-white;
 $footer-background-color: #DBD5CD;
-
+$link-color: $info-color;
+$link-color-hover: mix(#000, $link-color, 25%) !default;
+$link-color-visited: mix(#fff, $link-color, 15%) !default;
 
 
 /* Homepage customization  */
@@ -45,6 +47,13 @@ a.btn {
   padding: 0.5em 1em 0.5em 0;
 }
 
+
+a.btn::after {
+  content: ">";
+  background-color: #ffba10;
+  border-color: black;
+  border-style: dotted;
+}
 
 #footer {
   display: flex;

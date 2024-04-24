@@ -22,7 +22,7 @@ feature_row:
     title: "About N2T"
     excerpt: "The API is used to create and maintain identifiers and metadata. "
     url: "/about/"
-    btn_label: "API documentation."
+    btn_label: "Read about N2T"
     
 ---
 
