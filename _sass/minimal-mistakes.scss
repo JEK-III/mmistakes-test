@@ -23,8 +23,8 @@ $text-color: $n2t-black;
 $background-color: $n2t-white;
 $footer-background-color: #DBD5CD;
 $link-color: $info-color;
-$link-color-hover: mix(#000, $link-color, 25%) !default;
-$link-color-visited: mix(#fff, $link-color, 15%) !default;
+$link-color-hover: mix(#000, $link-color, 25%);
+$link-color-visited: mix(#fff, $link-color, 15%);
 
 
 /* Homepage customization  */
@@ -51,6 +51,8 @@ a.btn {
 a.btn::after {
   content: url("/assets/images/angle-right-solid--orange.svg");
   padding-left: 0.5em;
+  height: 1em;
+  width: 1em;
 }
 
 #footer {
