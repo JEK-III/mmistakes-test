@@ -5,6 +5,7 @@
 */
 
 /* N2T Customization ------------------ */
+/* Variables here, custom CSS below includes */
 
 /* Fonts */
 $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
@@ -26,40 +27,6 @@ $link-color: $info-color;
 $link-color-hover: mix(#000, $link-color, 25%);
 $link-color-visited: mix(#fff, $link-color, 15%);
 
-
-/* Homepage customization  */
-.page_title, .page_lead {
-  opacity: 0.95;
-}
-
-.archive__item-teaser {
-  background: $n2t-gallery-gradient;
-  padding: 2em 5em;
-
-  img {
-    width: 100%;
-    opacity: 0.9;
-  }
-}
-
-a.btn {
-  color: $info-color;
-  padding: 0.5em 1em 0.5em 0;
-}
-
-
-a.btn::after {
-  content: url("{{ site.baseurl }}/assets/images/angle-right-solid--orange.svg");
-  display: inline-block;
-  padding-left: 0.5em;
-  height: 1em;
-  width: 1em;
-}
-
-#footer {
-  display: flex;
-  gap: 1em;
-}
 
 
 /* end N2T Customization ------------------- */
@@ -101,6 +68,8 @@ a.btn::after {
 
 
 /* Additional custom N2T CSS */
+
+/* Header and footer */
 .site-logo img {
   max-height: 2.75rem;
 }
@@ -114,4 +83,53 @@ a.btn::after {
   font-weight: 600;
 }
 
+#footer {
+  display: flex;
+  gap: 1em;
+}
+
+
+/* Homepage customization  */
+.page_title, .page_lead {
+  opacity: 0.95;
+}
+
+/* Feature Row  */
+.archive__item-teaser {
+  background: $n2t-gallery-gradient;
+  padding: 2em 5em;
+
+  img {
+    width: 100%;
+    opacity: 0.9;
+  }
+}
+
+.feature__item .archive__item-body {
+  padding: 0.5em;
+  margin-top: 0;
+}
+
+.feature__wrapper .archive__item-title {
+  color: #075144;
+  font-size: 0.75em;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.archive_item a.btn {
+  color: $info-color;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0.5em 1em 0.5em 0;
+}
+
+
+a.btn::after {
+  content: url("{{ site.baseurl }}/assets/images/angle-right-solid--orange.svg");
+  display: inline-block;
+  padding-left: 0.5em;
+  height: 1em;
+  width: 1em;
+}
 
