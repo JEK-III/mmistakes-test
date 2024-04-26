@@ -88,6 +88,9 @@ $link-color-visited: mix(#fff, $link-color, 15%);
   gap: 1em;
 }
 
+.social-icons li {
+  margin-bottom: 0;
+}
 
 /* Homepage customization  */
 .page_title, .page_lead {
@@ -100,7 +103,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
   padding: 2em 5em;
 
   img {
-    width: 100%;
+    height: 100%;
     opacity: 0.9;
   }
 }
@@ -117,7 +120,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
   margin-top: 0;
 }
 
-.archive_item p a.btn {
+a.btn {
   color: $info-color;
   font-size: 1em;
   font-weight: 400;
