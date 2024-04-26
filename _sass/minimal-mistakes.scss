@@ -107,6 +107,10 @@ $link-color-visited: mix(#fff, $link-color, 15%);
     opacity: 0.9;
   }
 }
+.archive__item-excerpt > p {
+  margin-bottom: 0;
+}
+
 
 .feature__item .archive__item-body {
   padding: 0.5em;
