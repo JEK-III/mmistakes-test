@@ -1,5 +1,5 @@
 ---
-permalink: /home-design/
+permalink: /home-design--light/
 title: "Name to Thing"
 layout: splash
 classes: wide
