@@ -5,8 +5,9 @@ layout: splash
 classes: wide
 excerpt: N2T keeps identifiers persistent, forwarding them to the best known web addresses.
 header:
-    overlay_color: "#77827f"
+    # overlay_color: "#77827f"
     # overlay_image: "linear-gradient(55deg, rgba(0,119,139,1) 0%, rgba(0,119,139,1) 33%, rgba(0,163,173,1) 100%)"
+    overlay_image: /assets/images/hero/UCSD_day2-150--cropped.png
 feature_row:
   - image_path: /assets/images/N2T-icons_list--white.svg
     title: "Identifier Schemes"
