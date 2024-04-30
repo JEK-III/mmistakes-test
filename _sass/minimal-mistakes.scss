@@ -88,6 +88,10 @@ $link-color-visited: mix(#fff, $link-color, 15%);
   gap: 1em;
 }
 
+#footer__logo {
+  height: 100%;
+}
+
 .social-icons li {
   margin-bottom: 0;
 }
@@ -95,6 +99,11 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 /* Homepage customization  */
 .page_title, .page_lead {
   opacity: 0.95;
+}
+
+.page__hero-overlay {
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 /* Feature Row  */
@@ -119,7 +128,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 
 .feature__wrapper .archive__item-title {
   color: #075144;
-  font-size: 0.75em;
+  font-size: 0.85em;
   font-weight: 700;
   margin-top: 0;
 }
