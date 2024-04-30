@@ -8,7 +8,7 @@ header:
     overlay_color: rgb(13,132,110)
     overlay_filter: linear-gradient(55deg, rgba(13,132,110,1) 20%, rgba(98,159,72,1) 35%, rgba(44,137,112,1) 48%, rgba(107,157,85,1) 78%, rgba(8,121,141,1) 100%)
     # overlay_image: /assets/images/hero/UCSD_day2-150--cropped.png
-    overlay_filter: rgba(255, 0, 0, 0.5)
+    
 feature_row:
   - image_path: /assets/images/N2T-icons_list--white.svg
     title: "Identifier Schemes"
