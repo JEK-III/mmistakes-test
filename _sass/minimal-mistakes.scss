@@ -75,7 +75,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 .page__footer {
-  font-size: $type-size-6;
+  font-size: 0.8em;
 }
 
 .page__footer-follow a {
@@ -85,11 +85,13 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 
 #footer {
   display: flex;
-  gap: 1em;
+  flex-wrap: wrap;
+  gap: 2em;
 }
 
 #footer__logo {
   height: 100%;
+  width: 8em;
 }
 
 .social-icons li {
