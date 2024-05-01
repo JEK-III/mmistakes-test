@@ -11,10 +11,11 @@
 $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
-/* Color Variables: New */
+/* Variables: New */
 $n2t-gallery-gradient: linear-gradient(320deg, rgba(13,132,110,1) 25%, rgba(0,119,139,1) 94%);
 $n2t-white: #fcfffe;
 $n2t-black: #000d11;
+$footer-type-size: 0.8em;
 /* $action-color: #EE8B22; */
 
 /* Color Variables: Overrides */
@@ -75,7 +76,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 .page__footer {
-  font-size: $type-size-5;
+  font-size: $footer-type-size;
 }
 
 .page__footer a {
@@ -88,7 +89,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 .page__footer-follow a {
-  font-size: $type-size-5;
+  font-size: $footer-type-size;
   padding-right: 1em;
   font-weight: 600;
 }
