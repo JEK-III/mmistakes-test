@@ -75,10 +75,20 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 .page__footer {
-  font-size: 0.8em;
+  font-size: $type-size-5;
+}
+
+.page__footer a {
+  text-decoration: underline;
+}
+
+.page__footer a:hover {
+  text-decoration: none;
+  color: $info-color;
 }
 
 .page__footer-follow a {
+  font-size: $type-size-5;
   padding-right: 1em;
   font-weight: 600;
 }
@@ -86,6 +96,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 #footer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 2em;
 }
 
