@@ -166,11 +166,11 @@ a.btn::after {
 
  /* Feature Row-- Lighter version ---------------------*/
 .archive__item-teaser {
-  padding: 2em 5em;
+  padding: 2em 0 5em 0.5em;
 
   img {
-    width: 100%;
-    opacity: 0.9;
+    width: 7em;
+    opacity: 0.8;
   }
 }
 .archive__item-excerpt > p {
