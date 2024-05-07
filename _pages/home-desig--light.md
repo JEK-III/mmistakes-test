@@ -5,7 +5,7 @@ layout: splash
 classes: wide
 excerpt: N2T keeps identifiers persistent, forwarding them to the best known web addresses.
 header:
-    overlay_color: "#77827f"
+    overlay_color: $n2t-white
     overlay_filter: linear-gradient(55deg, rgba(0,119,139) 0, rgba(0,119,139) 0.33, rgba(0,163,173) 1.0)
     # overlay_image: /assets/images/hero/UCSD_day2-150--cropped.png
     # overlay_filter: rgba(255, 0, 0, 0.5)
