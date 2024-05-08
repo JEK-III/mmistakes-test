@@ -118,6 +118,8 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 .page__hero-overlay {
+  color: $n2t-black;
+  text-shadow: none;
   margin-top: 2em;
   margin-bottom: 1em;
 }
