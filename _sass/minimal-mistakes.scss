@@ -113,6 +113,8 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 /* Homepage customization  */
 .page_title, .page_lead {
   opacity: 0.95;
+  color: $n2t-black;
+  text-shadow: none;
 }
 
 .page__hero-overlay {
@@ -166,7 +168,7 @@ a.btn::after {
 
  /* Feature Row-- Lighter version ---------------------*/
 .archive__item-teaser {
-  padding: 2em 0 1.25em 0.5em;
+  padding: 2em 0 1.em 0.5em;
 
   img {
     width: 7em;
