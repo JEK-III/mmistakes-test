@@ -14,7 +14,7 @@ $sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Roboto", "Sego
 /* Variables: New */
 $n2t-gallery-gradient: linear-gradient(320deg, rgba(13,132,110,1) 25%, rgba(0,119,139,1) 94%);
 $n2t-white: #fcfffe;
-$n2t-black: #000d11;
+$n2t-black: #002033;
 $footer-type-size: 0.8em;
 /* $action-color: #EE8B22; */
 
@@ -110,15 +110,13 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 /* Homepage customization  */
-.page__title, .page__lead {
-  opacity: 0.95;
-  color: $n2t-black;
-  text-shadow: none;
-}
+
 
 .page__hero--overlay {
   margin-top: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
 }
 
 .page__hero--overlay .page__title, .page__hero--overlay .page__lead {
