@@ -121,7 +121,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
   margin-bottom: 1em;
 }
 
-.page__hero--overlay .page__title {
+.page__hero--overlay .page__title, .page__hero--overlay .page__lead {
   color: #075144;
   text-shadow: none;
 }
