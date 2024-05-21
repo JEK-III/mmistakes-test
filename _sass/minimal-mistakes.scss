@@ -72,11 +72,9 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 /* Header and footer */
 .site-logo img {
   max-height: 2.75rem;
-  position: relative;
-  left: -3em;
 }
 
-@media (max-width: 88em) {
+@media (min-width: 88em) {
   .site-logo img {
     position: relative;
     left: -3em;
