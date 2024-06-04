@@ -160,21 +160,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
   margin-top: 0;
 }
 
-a.btn {
-  color: $info-color;
-  font-size: 1em;
-  font-weight: 400;
-  padding: 0.5em 1em 0.5em 0;
-}
 
-
-a.btn::after {
-  content: url("{{ site.baseurl }}/assets/images/angle-right-solid--orange.svg");
-  display: inline-block;
-  padding-left: 0.5em;
-  height: 1em;
-  width: 1em;
-}
 
 
  /* Feature Row-- Lighter version ---------------------*/
@@ -203,6 +189,8 @@ a.btn::after {
   font-weight: 700;
   margin-top: 0;
 }
+*/
+
 
 a.btn {
   color: $info-color;
@@ -224,4 +212,3 @@ a.btn::after {
 a.btn:hover {
   text-decoration: underline;
 }
-*/
