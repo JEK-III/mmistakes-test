@@ -134,7 +134,7 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 /* Feature Row-- Darker version ---------------------*/
-/* .archive__item-teaser {
+.archive__item-teaser {
   background: $n2t-gallery-gradient;
   padding: 2em 5em;
 
@@ -175,9 +175,10 @@ a.btn::after {
   height: 1em;
   width: 1em;
 }
- */
+
 
  /* Feature Row-- Lighter version ---------------------*/
+ /*
 .archive__item-teaser {
   padding: 2em 0 1.25em 0.5em;
 
@@ -223,3 +224,4 @@ a.btn::after {
 a.btn:hover {
   text-decoration: underline;
 }
+*/
