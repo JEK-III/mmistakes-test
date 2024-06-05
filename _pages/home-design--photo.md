@@ -7,7 +7,7 @@ excerpt: N2T keeps identifiers persistent, forwarding them to the best known web
 header:
     overlay_color: rgb(13,132,110)
     #overlay_filter: linear-gradient(320deg, rgba(13,132,110,1) 20%, rgba(98,159,72,1) 35%, rgba(44,137,112,1) 48%, rgba(107,157,85,1) 78%, rgba(8,121,141,1) 100%)
-    #overlay_filter: linear-gradient(99deg, rgba(98,159,72,1) 0%, rgba(98,159,72,0.5) 58%, rgba(98,159,72,0.1) 100%)
+    overlay_filter: linear-gradient(99deg, rgba(98,159,72,1) 0%, rgba(98,159,72,0.5) 58%, rgba(98,159,72,0.1) 100%)
     overlay_image: /assets/images/hero/UCSD_day2-54--cropped.png
     
 feature_row:
