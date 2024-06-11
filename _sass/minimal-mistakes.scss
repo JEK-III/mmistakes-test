@@ -129,8 +129,8 @@ $link-color-visited: mix(#fff, $link-color, 15%);
 }
 
 .page__hero--overlay .page__title, .page__hero--overlay .page__lead {
-  color: #022c24;
-  text-shadow: none;
+  color: $nt2-white;
+  text-shadow: 0 0 0.1em rgba(0,0,0,0.75);
 }
 
 /* Feature Row-- Darker version ---------------------*/
