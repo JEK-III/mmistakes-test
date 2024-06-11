@@ -74,6 +74,10 @@ $link-color-visited: mix(#fff, $link-color, 15%);
   max-height: 2.75rem;
 }
 
+.site-title {
+  display: none;
+}
+
 @media (min-width: 88em) {
   .site-logo img {
     position: relative;
